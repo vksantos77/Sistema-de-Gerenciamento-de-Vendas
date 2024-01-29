@@ -17,7 +17,7 @@ namespace SalesWebMvc2019.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Alterando o viewData para testes";
 
             return View();
         }
